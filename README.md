@@ -1,2 +1,11 @@
-# AICSSYC-2022
-Repository for AICSSYC-2022 event organized by IEEE
+AICSSYC Webpage sections :-
+1. Home
+2. About
+3. Tracks
+4. Speakers
+5. Register
+6. Sponsors
+7. Contact
+
+You can use the hello IEEE website for reference :-
+http://ieee-jaduniv.in/hello-IEEE/
