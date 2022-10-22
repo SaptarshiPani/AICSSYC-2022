@@ -16,9 +16,11 @@
     /* text-decoration: underline; */
     /* transition-delay: 500ms; */
   }
-  .navbar-toggler{
-    /* align-items: flex-end;
-    text-align: right; */
+  .navbar>.container-fluid{
+    justify-content: flex-start;
+	/* gap:6rem; */
+    /* text-align: left; */
+	/* margin: auto 0; */
   }
 .text h3,h2,h1{
     color: white;
@@ -26,11 +28,13 @@
     /* lekhar size gulo media dia komate hobe */
 }
 .text h1{
-    font-size: 5.6rem;
+	font-size: 5.6rem;
+    /* font-size: clamp(3rem,1rem+10vw,5.6rem); */
     color: #ffe53b;
 }
 .text h2{
     font-size: 3rem;
+	/* font-size: clamp(1.5rem,1rem+10vw,3rem); */
 }
 .text h1::after{
     content: '';
@@ -45,6 +49,7 @@
 }
 .text h3{
     font-size: 2.5rem;
+	/* font-size: clamp(1rem,1rem+10vw,2.5rem); */
 }
 .regis-btn a {
     background-color: #181818;
