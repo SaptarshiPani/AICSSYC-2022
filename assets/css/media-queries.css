@@ -81,7 +81,7 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .top-content .text .logo a {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 130px 69px !important;
+    	background-image: url(../img/logo.png) !important; background-repeat: no-repeat !important; background-size: 130px 69px !important;
     }
 	
 }
