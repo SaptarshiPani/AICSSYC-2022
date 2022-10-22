@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AICSSYC</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/form-elements.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/media-queries.css">
+	<link rel="stylesheet" href="assets/css/timer.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+	<link rel="shortcut icon" href="assets/ico/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:ital,wght@1,200&display=swap"
+		rel="stylesheet">
+
+</head>
+<!-- For body scrollspy-->
+<!-- <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> -->
+
+<!-- PreLoader -->
+<!-- <div class="loader">
+    		<div class="loader-img"></div>
+    	</div> -->
+
+<!-- Top menu -->
+<!-- this is where the problem was -->
+<!-- <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+				Collect the nav links, forms, and other content for toggling
+
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav">
+				<div class="collapse navbar-collapse"">
+     				<ul class="nav navbar-nav">
+						<li><a class="scroll-link" href="#abt">About</a></li>
+						<li><a class="scroll-link" href="#facmentor">  Our Speakers</a></li>
+						<li><a class="scroll-link" href="#ourachievements">Achievements</a></li>
+						<li><a class="scroll-link" href="#eventshosted">Events </a></li>
+						<li><a class="scroll-link" href="#imggallery">Sponsors</a></li>
+						<li><a class="scroll-link" href="#footer">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav> -->
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top bg-dark" aria-label="Offcanvas navbar large">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">IEEE</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+			aria-controls="offcanvasNavbar2">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+			aria-labelledby="offcanvasNavbar2Label">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasNavbar2Label">IEEE</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Home</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>About</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Tracks</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Speakers</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Register</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Sponsors</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Contact</span></a>
+					</li>
+			</div>
+		</div>
+	</div>
+</nav>
+<!-- Top content -->
+<div class="top-content">
+	<div class="inner-bg" style="background-image:url(img.gif); width: 100%;height: 100%; opacity:1;">
+		<div class="container">
+			<div class="row" style="opacity: 1.0">
+				<div class="col-sm-8 col-sm-offset-2 text">
+					<div class="logo wow fadeInDown">
+						<img src="logo-removebg-preview.png">
+					</div>
+					<h1 class="wow fadeInLeftBig">Welcome to AICCSSYC event</h1>
+					<br>
+					<h2 class="weareentre">This is organised by IEEE</h2>
+					<h3 class="welcome"><b>Hi everyone, <br> </b>AICCSSYC aims create an
+						atmosphere which promotes research and innovative ideas.</h3>
+				</div>
+				<div class="top-big-link wow fadeInUp regis-btn" style="display: grid;
+							place-items: center;">
+					<!-- <a class="btn btn-link-1 scroll-link" href="#abt">Register here&#8594;</a>	 -->
+					<a href="/" target="_blank">
+						<span> </span>
+						<span> </span>
+						<span> </span>
+						<span> </span>
+						Register
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<main>
+	<!-- <h4 style="font-size: 3em;">EVENT STARTS IN</h4> -->
+	<h1><span class="badge bg-secondary">EVENT STARTS IN</span></h1>
+	<br>
+	<br>
+	<br>
+	<div>
+
+		<div class="countdown">
+
+			<div class="countdown-block">
+				<span class="days time-elem">
+					<span class="top">00</span>
+					<span class="top-back">
+						<span>00</span>
+					</span>
+					<span class="bottom">00</span>
+					<span class="bottom-back">
+						<span>00</span>
+					</span>
+				</span>
+				<span class="title">Days</span>
+			</div>
+
+
+			<div class="countdown-block">
+				<span class="hours time-elem">
+					<span class="top">00</span>
+					<span class="top-back">
+						<span>00</span>
+					</span>
+					<span class="bottom">00</span>
+					<span class="bottom-back">
+						<span>00</span>
+					</span>
+				</span>
+				<span class="title">Hours</span>
+			</div>
+
+
+			<div class="countdown-block">
+				<span class="minutes time-elem">
+					<span class="top">00</span>
+					<span class="top-back">
+						<span>00</span>
+					</span>
+					<span class="bottom">00</span>
+					<span class="bottom-back">
+						<span>00</span>
+					</span>
+				</span>
+				<span class="title">Minutes</span>
+			</div>
+
+			<div class="countdown-block">
+				<span class="seconds time-elem">
+					<span class="top">00</span>
+					<span class="top-back">
+						<span>00</span>
+					</span>
+					<span class="bottom">00</span>
+					<span class="bottom-back">
+						<span>00</span>
+					</span>
+				</span>
+				<span class="title">Seconds</span>
+			</div>
+
+		</div>
+	</div>
+
+</main>
+<!-- About Us-->
+<div class="abt-container section-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 services section-description wow fadeIn">
+				<h2><b>About Us</b></h2>
+				<div class="divider-1 wow fadeInUp"><span></span></div>
+			</div>
+		</div>
+		<center><h1><span class="badge bg-secondary">ABOUT</span></h1></center>
+		<p>
+		<h3>IEEE is the world's largest technical professional organisation that is working
+			constantly towards the advancement of technology and to promote research,
+			mostly in the fields of Electrical and Electronics engineering, with a special
+			emphasis on helping the society.
+			The Jadavpur University IEEE student branch, founded in 2010, belongs to the
+			Kolkata section of Region 10 of the organisation. We are a group of enthusiastic
+			students who are promoting innovative ideas both within and outside the campus.</h3><br><br>
+		</p>
+	</div>
+</div>
+<div>
+	<center>
+		<h1><span class="badge bg-secondary" style="border-radius: 7%;">TRACKS</span></h1>
+	</center>
+	<br>
+	<br>
+<center>
+	<div class="card mb-3" style="max-width: 1200px; height: auto;">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="/assets/img/panel.png" class="img-fluid rounded-start" alt="...">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h3 class="card-title" style="font-style: bold ;">Card title</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+						additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3" style="max-width: 1200px; height: auto;">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="/assets/img/panel.png" class="img-fluid rounded-start" alt="...">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h3 class="card-title" style="font-style: bold ;">Card title</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+						additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card mb-3" style="max-width: 1200px; height: auto;">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="/assets/img/panel.png" class="img-fluid rounded-start" alt="...">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h3 class="card-title" style="font-style: bold ;">Card title</h3>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+						additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</center>
+<br>
+<br>
+</div>
+<!-- Speakers Section -->
+
+<div class="facmentor-container section-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 services section-description wow fadeIn">
+				<center><h1><span class="badge bg-secondary">OUR SPEAKERS</span></h1></center>
+				<div class="divider-1 wow fadeInUp"><span></span></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 services-box wow fadeInUp"><a href="https://en.wikipedia.org/wiki/Jadavpur_University">
+					<div class="row">
+						<div class="col-sm-4">
+
+							<img src="img.png" class="img-circle">
+
+						</div>
+						<div class="col-sm-8">
+							<h3>Dr RAY</h3>
+							<p>Professor of IIMA>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4 services-box wow fadeInDown">
+				<a href="https://en.wikipedia.org/wiki/Jadavpur_University">
+					<div class="row">
+						<div class="col-sm-4">
+
+							<img src="img.png" class="img-circle">
+
+						</div>
+						<div class="col-sm-8">
+							<h3>Prof Trishna </h3>
+							<p>Professor of IITK</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-4 services-box wow fadeInUp"><a href="https://en.wikipedia.org/wiki/Jadavpur_University">
+					<div class="row">
+						<div class="col-sm-4">
+
+							<img src="img.png" class="img-circle">
+
+						</div>
+						<div class="col-sm-8">
+							<h3>Prof. R pal</h3>
+							<p>Professor, phy dept</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Achievements -->
+<div class="ourachievements-container section-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 ourachievements section-description wow fadeIn">
+				<h2>Past Achievements <i class="fa fa-trophy" aria-hidden="true"></i></h2>
+				<div class="divider-1 wow fadeInUp"><span></span></div>
+				<p style="font-size: 25px;"> Our Past achivements were like “hello”-IEEE , Pass the Mic 2.0 , ML
+					Accelerator Summit 2.0 etc </p>
+			</div>
+		</div>
+		<br>
+		<div class='row'>
+			<div class='col-sm-4'>
+				<div class="card">
+					<img class="card-img-top" src="assets/img/img.jpg">
+					<div class="card-body">
+						<a href="https://ieee-jaduniv.in/hello-IEEE/" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">Hello IEEE</h3>
+						</a>
+						<h5> Date : </h5>
+						<p class="card-text">The crown jewel of our Student Branch for the year 2022 so far, “hello”
+							IEEE was a first-of-its-kind event organised by us on a massive scale.
+							Encompassing enthusiasm and audience from the entire Kolkata
+							section of IEEE, it was a day-long networking and intellectual fiesta
+							comprising panel discussions, guest-speaker presentations, idea
+							presentations, inter-collegiate quizzing events and lots more. It saw an
+							offline presence of over 100 and an active online participation of over
+							250. All in all, it was a grand success.</p>
+					</div>
+				</div>
+			</div>
+			<div class='col-sm-4'>
+				<div class="card">
+					<img class="card-img-top" src="assets/img/img.jpg">
+					<div class="card-body">
+						<a href="https://ieee-jaduniv.in/ptm/" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">Pic the mike</h3>
+						</a>
+						<h5>Date: </h5>
+						<p class="card-text">The highly anticipated Pass the Mic 2.0 was held to celebrate the
+							growth and development of women in engineering through the course
+							of years.
+							IEEE WIE members got the opportunity to interact with accomplished
+							women in the field of engineering and by bringing the podcasts to all
+							the students, especially the female student body, many of them were
+							given the confidence boost they needed.</p>
+					</div>
+				</div>
+			</div>
+			<div class='col-sm-4'>
+				<div class="card">
+					<img class="card-img-top" src="assets/img/img.jpg">
+					<div class="card-body">
+						<a href="https://ieee-jaduniv.in/mlas-2.0/" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">ML Accelerator Summit 2.0 </h3>
+						</a>
+						<h5> January 2017</h5>
+						<p class="card-text">As our first offline event in Jadavpur University campus after 2 long
+							years of hiatus due to the pandemic, ML Accelerator 2.0 was a grand
+							success. Besides that, it was also the first event by our newly elected
+							executive committee, which is why the successful execution of this
+
+							11
+
+							event was of prime significance to us.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+
+	</div>
+</div>
+</div>
+<br><br><br><br><br>
+<!-- Events Overview-->
+<div class="eventshosted-container section-container section-container-image-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 eventshosted section-description wow fadeIn">
+				<h2>Events</h2>
+				<hr width="50%">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+				<div role="tabpanel">
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="tab1">
+							<div><img src="assets/img/img.jpg" class="events-img1" height="250" width="550">
+							</div>
+							<div class="testimonial-text">
+								<p>
+									Speaches of our speakers<br>
+									Time:
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab2">
+							<div><a target="_blank">
+									<img src="assets/img/img.jpg" class="events-img2" height="350" width="250"></a>
+							</div>
+							<div class="testimonial-text">
+								<p>
+									abc<br>
+									Time: <span class="media-cell">
+								</p>
+
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab3">
+							<a target="_blank">
+								<div>
+									<img src="assets/img/imgjpg" class="events-img1" height="250" width="550">
+								</div>
+							</a>
+							<div class="testimonial-text">
+								<p>
+									xyz<br>
+									Time:
+
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab4">
+							<a target="_blank">
+								<div>
+									<img src="assets/img/img.jpg" class="events-img1" height="250" width="550">
+								</div>
+							</a>
+
+							<div class="testimonial-text">
+								<p>
+									mni<br>
+									Time :
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab5">
+
+							<div>
+								<img src="assets/img/img.jpg" class="events-img2" height="350" width="250">
+							</div>
+
+							<div class="testimonial-text">
+								<p>
+
+									mjhf<br>
+									Time:
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab6">
+							<a href="https://www.facebook.com/events/1647243975320099/" target="_blank">
+								<div>
+									<img src="assets/img/innovatica17.png" class="events-img2" height="350" width="250">
+								</div>
+							</a>
+
+							<div class="testimonial-text">
+								<p>
+									Ipsd<br>
+									<br>
+									Time:
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab7">
+							<a>
+								<div class="testimonial-text">
+									<p>
+										<b>explore more events by comming on that day</b>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab"></a>
+						</li>
+						<li role="presentation">
+							<a href="#tab7" aria-controls="tab7" role="tab" data-toggle="tab"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br><br><br><br><br>
+<!-- Sponsors -->
+
+<div class="imggallery-container section-container">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-12 blog section-description wow fadeIn">
+				<h2>Sponsors for the event</h2>
+				<div class="divider-1 wow fadeInUp"><span></span></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="assets/img/card1.jpg">
+					<div class="card-body">
+						<a href="https://m.facebook.com/profile.php?id=100065191231311&_rdr" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">abc</h3>
+						</a>
+						<p class="card-text">nddjceuc</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="assets/img/card2.jpg">
+					<div class="card-body">
+						<a href="https://m.facebook.com/profile.php?id=100065191231311&_rdr" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">defv</h3>
+						</a>
+						<p class="card-text">cbdbwdbcuw</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="assets/img/card3.jpg">
+					<div class="card-body">
+						<a href="https://photos.app.goo.gl/TWSS0Mg8vlSfmcx82" target="_blank">
+							<h3 style="font-weight: bold;" class="card-title">hbwhc</h3>
+						</a>
+						<p class="card-text">ssxxbvc.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 section-bottom-button wow fadeInUp">
+				<center><a class="btn btn-link-1" href="https://en.wikipedia.org/wiki/Jadavpur_University">Register
+						Now</a></center>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- Footer -->
+<footer class="footer-container">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-sm-6 footer-left">
+				<h3>Contact us</h3>
+				<div class="contact-form">
+					<form role="form" action="assets/contact.php" method="post">
+						<div class="form-group">
+							<label class="sr-only" for="contact-email">Email</label>
+							<input type="text" name="email" placeholder="Email..." class="contact-email form-control"
+								id="contact-email">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="contact-subject">Subject</label>
+							<input type="text" name="subject" placeholder="Subject..."
+								class="contact-subject form-control" id="contact-subject">
+						</div>
+						<div class="form-group">
+							<label class="sr-only" for="contact-message">Message</label>
+							<textarea name="message" placeholder="Message..." class="contact-message form-control"
+								id="contact-message"></textarea>
+						</div>
+						<button id="contact-submit" type="submit" class="btn">Send message</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="col-sm-5 col-sm-offset-1 footer-right">
+				<h3>Follow us</h3>
+				<div class="footer-social">
+					<a href="https://www.facebook.com/ieeejusb//"><i class="fa fa-facebook"></i></a>
+					<a href="https://ieee-jaduniv.in/"><i class="fa fa-book"></i></a>
+				</div>
+				<div class="footer-copyright">
+					<img src="logo.png" height="100" width="100"> <span style="font-size: 1.2em;">AICSSYC </span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 footer-bottom">
+				<a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+	crossorigin="anonymous"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/retina-1.1.0.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="assets/js/timer.js"></script>
+<!--For smooth scrolling over navigation bar links-->
+<script>
+	$(document).ready(function () {
+		// Add smooth scrolling to all links in navbar + footer link
+		$(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 900, function () {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	})
+</script>
+
+</body>
+
+</html>
