@@ -17,25 +17,35 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
 
-
+		<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
         <link rel="shortcut icon" href="assets/ico/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
+
+		<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
     </head>
                   <!-- For body scrollspy-->
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> -->
     
         <!-- PreLoader -->
-    	<div class="loader">
+    	<!-- <div class="loader">
     		<div class="loader-img"></div>
-    	</div>
+    	</div> -->
 
 		<!-- Top menu -->
 	<!-- this is where the problem was -->
-		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+		<!-- <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -46,10 +56,10 @@
       				</button>
     			</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
+				Collect the nav links, forms, and other content for toggling
 
-				<!-- <div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav"> -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav">
 				<div class="collapse navbar-collapse"">
      				<ul class="nav navbar-nav">
 						<li><a class="scroll-link" href="#abt">About</a></li>
@@ -61,25 +71,70 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
-
+		</nav> -->
+		<nav class="navbar navbar-expand-lg navbar-dark  fixed-top bg-dark" aria-label="Offcanvas navbar large">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#">IEEE</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasNavbar2Label">IEEE</h5>
+				  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+					  <a class="nav-link active underline" aria-current="page" href="#"><span>Home</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>About</span></a>
+					  </li>    
+					  <li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Tracks</span></a>
+					  </li>    
+					  <li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Speakers</span></a>
+					  </li>    
+					  <li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Register</span></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Sponsors</span></a>
+					  </li> 
+					  <li class="nav-item">
+						<a class="nav-link active underline" aria-current="page" href="#"><span>Contact</span></a>
+					  </li>     
+				</div>
+			  </div>
+			</div>
+		  </nav>
         <!-- Top content -->
         <div class="top-content">
-            <div class="inner-bg" style="background-image:url(img.gif); width: 100%;height: 100%; opacity:0.4;">
+            <div class="inner-bg" style="background-image:url(img.gif); width: 100%;height: 100%; opacity:1;">
                 <div class="container" >
-                	
                     <div class="row" style="opacity: 1.0">
                         <div class="col-sm-8 col-sm-offset-2 text">
                         	<div class="logo wow fadeInDown">
-					<img src = "logo.png">
+							<img src = "logo-removebg-preview.png">
                         	</div>
                             <h1 class="wow fadeInLeftBig">Welcome to AICCSSYC event</h1>
-				<h3 class="weareentre">This is organised by IEEE</h3>
-				<p class="welcome"><b>Hi everyone </b>AICCSSYC aims create an
-					atmosphere which promotes research and innovative ideas.</p>
+							<br>
+							<h2 class="weareentre">This is organised by IEEE</h2>
+							<h3 class="welcome"><b>Hi everyone, <br> </b>AICCSSYC aims create an
+							atmosphere which promotes research and innovative ideas.</h3>
                             </div>
-                            <div class="top-big-link wow fadeInUp">
-                            	<a class="btn btn-link-1 scroll-link" href="#abt">Register here&#8594;</a>	
+                            <div class="top-big-link wow fadeInUp regis-btn" style="display: grid;
+							place-items: center;">
+                            	<!-- <a class="btn btn-link-1 scroll-link" href="#abt">Register here&#8594;</a>	 -->
+								<a href="/" target="_blank">
+									<span> </span>
+									<span> </span>
+									<span> </span>
+									<span> </span>
+									Register
+								</a>
                             </div>
                         </div>
                     </div>
@@ -454,7 +509,11 @@ event was of prime significance to us.</p>
 	        </div>
         </footer>
         <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
