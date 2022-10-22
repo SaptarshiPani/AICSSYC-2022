@@ -76,6 +76,15 @@
     align-items: center;
     text-align: center;
 }
+.speakers h1{
+  font-weight: 800;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #251B37;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-style: normal;
+}
 .col-items{
   padding: 10px;
 }
@@ -88,9 +97,24 @@
   background-color: white;
   transition: transform 10s;
 }
+.col-items h5{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+.col-items span{
+  font-size: 1.2rem;
+}
+.social{
+  position: relative;
+  top: 5px;
+  display:flex;
+  justify-content: center;
+}
 .social-link {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #ddd;
     color: #666;
     display: flex;
