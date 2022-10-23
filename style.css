@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+
 .navbar-brand {
 	font-size: 5rem;
 	color: #ffe53b;
@@ -6,17 +14,24 @@
 	/* color: #ffd902; */
 }
 
+/* .font{
+	font-family:"Poppins", sans-serif ;
+} */
+
 .nav-link span {
 	padding: 0 15px;
 	font-size: 1.5rem;
 	font-family: "Montserrat", sans-serif;
-	transition: 1s ease-in;
+	transition: 0.3s all linear;
+	font-weight: 500;
 }
 
 .nav-link span:hover {
-	color: #ff008c;
+	color: #ffe53b;
+	cursor: pointer;
 	/* text-decoration: underline; */
 	/* transition-delay: 500ms; */
+	/* text-decoration: underline; */
 }
 
 .navbar>.container-fluid {
@@ -45,7 +60,7 @@ h1 {
 	/* font-size: clamp(1.5rem,1rem+10vw,3rem); */
 }
 
-.text h1::after {
+/* .text h1::after {
 	content: '';
 	top: 0px;
 	bottom: 0px;
@@ -55,7 +70,7 @@ h1 {
 	border-radius: 5px;
 	background: linear-gradient(90deg, #ffe53b, #ff2525);
 	transform: translateY(-2000%);
-}
+} */
 
 .text h3 {
 	font-size: 2.5rem;
@@ -73,6 +88,12 @@ h1 {
 	letter-spacing: 4px;
 	font: 700 30px consolas;
 	overflow: hidden;
+	transition: 0.3s all linear;
+}
+
+.regis-btn a:hover{
+	/* background: #5f5e5e; */
+	letter-spacing:8px ;
 }
 
 .regis-btn a span:nth-child(1) {
@@ -94,6 +115,19 @@ h1 {
 }
 
 /* ----------------CONTACT------------------ */
+
+.bg-img {
+	background-image: url(JU.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
+	/* height: 99%; */
+	background-blend-mode: darken;
+	/* width: 100%; */
+}
+
 .formbold-mb-5 {
 	margin-bottom: 20px;
 }
@@ -186,6 +220,125 @@ h1 {
 .w-full {
 	width: 100%;
 }
+
+
+#venue {
+	padding: 60px 0;
+}
+
+#venue .JU {
+	margin-bottom: 3px;
+}
+
+.JU {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section-header {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+
+.section-header h2 {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 15px;
+	transition: all 0.2s ease-in-out;
+
+}
+
+
+
+.section-header p {
+	text-align: center;
+
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #e3edef;
+}
+
+
+#venue {
+	background: rgba(0, 0, 0, 0.49) url(sb3\ \(1\).png) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
+	background-blend-mode: darken;
+
+
+
+}
+
+#venue.JU {
+	visibility: visible;
+}
+
+.happening {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+.aboutju {
+	position: relative;
+	max-width: 600px;
+	padding: 60px;
+	background: rgba(255, 255, 255, .2);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	margin-top: 10px;
+
+	margin-left: 900px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+	text-align: center;
+
+}
+
+.aboutju h3 {
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 5px;
+}
+
+.aboutju p {
+	padding: 10px;
+}
+
+.aboutju b {
+	padding: 3px;
+
+}
+
+.aboutju a {
+	text-decoration: none;
+	color: white;
+}
+
+.aboutju a:hover {
+	transition-delay: 0.1s;
+	color: rgb(185, 186, 192);
+}
+
 
 @media (min-width: 540px) {
 	.sm\:w-half {
