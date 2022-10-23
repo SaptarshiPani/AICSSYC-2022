@@ -920,6 +920,10 @@
 <script src="assets/js/timer.js"></script>
 <!--For smooth scrolling over navigation bar links-->
 <script>
+	var loader=document.getElementById('preloader');
+    window.addEventListener("load",function(){
+    loader.style.display="none";
+    })
 	$(document).ready(function () {
 		// Add smooth scrolling to all links in navbar + footer link
 		$(".navbar a, footer a[href='#myPage']").on('click', function (event) {
