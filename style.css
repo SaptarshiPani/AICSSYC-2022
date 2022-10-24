@@ -134,7 +134,10 @@
 	/* overflow-x: hidden; */
 }
 
-
+.navbar{
+	min-height: 65px!important;
+	border-radius: 0 !important;
+}
 .navbar-brand {
 	font-size: 5rem;
 	color: #ffe53b;
