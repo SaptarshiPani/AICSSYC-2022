@@ -9,8 +9,8 @@
 	line-height: 1;
 }
 .timeline .date {
-	width: 100px;
-	margin-right: -45px;
+	width: 150px;
+	margin-right: -1px;
 	margin-top: 24px;
 	border-top: 3px solid lightgray;
 	text-align: right;
@@ -21,7 +21,7 @@
 }
 /*Even*/
 .event:nth-child(even) .date {
-	margin-left: -45px;
+	margin-left: -1px;
 	text-align: left;
 }
 .event:nth-child(even) .icon i {
@@ -29,22 +29,22 @@
 }
 /*Colors*/
 .bg-color1 {
-	background:DodgerBlue;
+	background:DarkBlue;
 	color: #fff;
 font-size: 20px;
 }
 .txt-color1 {
-	color: DodgerBlue;
-	border-color:DodgerBlue !important;
+	color:DarkBlue;
+	border-color: DarkBlue !important;
 }
 .bg-color2 {
-	background:DodgerBlue;
+	background:SkyBlue;
 	color: #fff;
 font-size: 20px;
 }
 .txt-color2 {
-	color:DodgerBlue;
-	border-color: DodgerBlue !important;
+	color:SkyBlue;
+	border-color:SkyBlue !important;
 }
 
 /*Animation*/
