@@ -57,12 +57,12 @@ font-size: 20px;
 
 .timeline .event:nth-child(odd) .detail,
 .timeline .event:nth-child(even) .icon {
-	transform: translate3d(200px, 0, 0);
+	transform: translate3d(10px, 0, 0);
 }
 
 .timeline .event:nth-child(even) .detail,
 .timeline .event:nth-child(odd) .icon {
-	transform: translate3d(-200px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
 }
 
 .timeline .event.in-view .detail,
