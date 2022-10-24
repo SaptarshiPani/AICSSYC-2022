@@ -1,37 +1,31 @@
-const contents = document.querySelectorAll('.timeline-content');
+(function () {
+  "use strict";
 
-window.addEventListener('scroll', debounce(effectOnScroll));
+  // define variables
+  var items = document.querySelectorAll(".timeline .event");
 
-function effectOnScroll() {
-  // Loop through contents and add the animation entrance
-  contents.forEach(content => {
-    if (isVisible(content)) {
-      content.classList.add('from-bottom');
+  // check if an element is in viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
     }
-  });
-}
+  }
 
-function isVisible(content) {
-  // Get the current element position compared to the window height
-  const contentPosition =
-    content.getBoundingClientRect().top - window.innerHeight;
-  const distanceFromTop = -200;
-  return contentPosition < distanceFromTop ? true : false;
-}
-
-// This function handle the scroll performance issue
-function debounce(func, wait = 20, immediate = true) {
-  let timeOut;
-  return function() {
-    let context = this,
-      args = arguments;
-    var later = function() {
-      timeOut = null;
-      if (!immediate) func.apply(context, args);
-    };
-    var callNow = immediate && !timeOut;
-    clearTimeout(timeOut);
-    timeOut = setTimeout(later, wait);
-    if (callNow) func.apply(context, args);
-  };
-}
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
