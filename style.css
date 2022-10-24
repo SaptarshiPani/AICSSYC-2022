@@ -242,6 +242,118 @@ h1 {
 	flex-wrap: wrap;
 }
 
+/* ---------------Speakers Section---------------- */
+
+.speakers{
+    background-color: #114a96;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.speakers h1{
+  font-weight: 800;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #B2B2B2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: normal;
+}
+.col-items{
+  padding: 10px;
+}
+.col-items h5{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+.col-items span{
+  font-size: 1.2rem;
+}
+.imgg{
+  margin: auto;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+.img{
+  background-color: white;
+}
+
+.im{
+  background-color: white;
+}
+.social{
+  position: relative;
+  top: 5px;
+  display:flex;
+  justify-content: center;
+}
+.social-link {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    visibility: hidden;
+    tr
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+.social-link i{
+ font-size: 1.4rem;
+
+}
+.col-items:hover .social-link{
+  visibility: visible;
+  transform: scale(1.1);
+}
+.col-items:hover .im{
+background: #81C6E8;
+}
+.col-items:hover .imgg{
+  background:  #81C6E8;
+}
+
+/* -----sponsorship section----- */
+
+.sponsorship_main{
+  background-color: #89b7d1;
+}
+.sponsorship__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  color: black;
+  margin-top: 30px;
+  letter-spacing: -0.2rem;
+  padding-bottom: 40px;
+}
+
+.sponsorship__title__span {
+  color: #9d0191;
+}
+.sponsor__image {
+  max-height: 300px;
+  min-width: 300px;
+}
+.sponsorship__image{
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px 15px 10px;;
+}
 /* ----------------CONTACT------------------ */
 
 .bg-img {
