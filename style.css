@@ -245,7 +245,7 @@ h1 {
 /* ---------------Speakers Section---------------- */
 
 .speakers{
-    background-color: #114a96;
+    /* background-color: #114a96; */
     min-height: 100vh;
     align-items: center;
     text-align: center;
@@ -328,7 +328,7 @@ background: #81C6E8;
 /* -----sponsorship section----- */
 
 .sponsorship_main{
-  background-color: #89b7d1;
+  /* background-color: #89b7d1; */
 }
 .sponsorship__title {
   font-family: "Montserrat", sans-serif;
@@ -352,7 +352,7 @@ background: #81C6E8;
 .sponsorship__image{
   display: flex;
   justify-content: center;
-  padding: 15px 10px 15px 10px;;
+  padding: 5px 10px 15px 10px;;
 }
 /* ----------------CONTACT------------------ */
 
