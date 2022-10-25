@@ -53,6 +53,7 @@ font-size: 20px;
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.5s ease-in-out;
+	/* animation-delay: 2s; */
 }
 
 .timeline .event:nth-child(odd) .detail,
@@ -73,7 +74,7 @@ font-size: 20px;
 }
 
 .timeline .dot {
-	animation: scaleAnimation 1s;
+	animation: scaleAnimation 2s;
 }
 
 @keyframes scaleAnimation {
