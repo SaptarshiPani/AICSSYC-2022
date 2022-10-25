@@ -26,7 +26,7 @@ h1 {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 }
 
 .faq.active {
@@ -36,9 +36,9 @@ h1 {
 
 .faq.active::before,
 .faq.active::after {
-  content: '\f075';
-  font-family: 'Font Awesome 5 Free';
-  color: #2ecc71;
+  content: '';
+  /* font-family: 'Font Awesome 5 Free'; */
+  /* color: #2ecc71; */
   font-size: 7rem;
   position: absolute;
   opacity: 0.2;
