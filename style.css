@@ -298,7 +298,10 @@ h1 {
 	background-color: white;
 	transition: 0.3s all linear;
 }
-
+.im h5{
+	padding-top: 10px;
+	font-family: Karla;
+}
 .social {
 	position: relative;
 	top: 5px;
