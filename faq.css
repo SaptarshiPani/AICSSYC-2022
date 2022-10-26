@@ -26,7 +26,7 @@ h1 {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.7s ease;
+    transition: 0.3s ease;
 }
 
 .faq.active {
@@ -36,9 +36,9 @@ h1 {
 
 .faq.active::before,
 .faq.active::after {
-  content: '';
-  /* font-family: 'Font Awesome 5 Free'; */
-  /* color: #2ecc71; */
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
   font-size: 7rem;
   position: absolute;
   opacity: 0.2;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .faq.active::before {
-    color: #3498db;
+    color: ;
     top: -10px;
     left: -30px;
     font-size: 60px;
@@ -102,6 +102,8 @@ h1 {
 }
 
 .faq.active .faq-toggle .fa-chevron-down {
-    display: none;
+    display:none;
 }
-
+.faq.active .faq-toggle .fa-chevron-up {
+    display: 1;
+}
