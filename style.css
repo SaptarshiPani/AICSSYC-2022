@@ -1270,13 +1270,13 @@ nav span {
  .container_tracks .card_tracks:hover
  {
 	background-color: white;
-	 height: 450px;
+	 height: 500px;
  }
  .container_tracks .card_tracks .imgContainer
  {
 	 position: relative;
 	 width:250px;
-	 height:250px;
+	 height:200px;
 	 top:-50px;
 	 left:10px;
 	 z-index: 1;
