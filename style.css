@@ -319,6 +319,7 @@ h1 {
 	font-size: 0.9rem;
 	visibility: hidden;
 	transition: 0.1s all linear;
+	text-decoration: none;
 	/* tr */
 }
 
