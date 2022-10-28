@@ -35,17 +35,18 @@
   background: #0066a1;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 10px 0;
   margin-right: 4px;
-  border-radius: 4px;
+  border-radius:50%;
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #65c9cd;
+  background: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -88,6 +89,7 @@
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  text-decoration: none;
 }
 
 #footer .footer-top .footer-links ul a:hover {
