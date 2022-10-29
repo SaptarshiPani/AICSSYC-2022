@@ -253,7 +253,8 @@ h1 {
 
 .speakers {
 	/* background-color: #114a96; */
-	min-height: 100vh;
+/* 	min-height: 100vh; */
+	height: auto;
 	align-items: center;
 	text-align: center;
 }
