@@ -1313,8 +1313,17 @@ nav span {
 	 }
  }
 
-
-
+.event_loc{
+	width: 1280px;
+	height: 720px;
+}
+@media (max-width:770px)
+{
+	.event_loc{
+		width: 280px;
+		height: 320px;
+	}
+}
 
 
 
