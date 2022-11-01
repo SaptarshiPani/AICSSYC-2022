@@ -7,7 +7,5 @@ AICSSYC Webpage sections :-
 6. Sponsors
 7. Contact
 
-You can use the hello IEEE website for reference :-
-http://ieee-jaduniv.in/hello-IEEE/
 
-https://saptarshipani.github.io/AICSSYC-2022/
+Link : https://ieee-jaduniv.in/AICSSYC-2022/
