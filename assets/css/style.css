@@ -134,7 +134,9 @@
 	font-family: 'Poppins', sans-serif;
 	/* overflow-x: hidden; */
 }
-
+.offcanvas-body{
+	padding: var(--bs-offcanvas-padding-y) 2rem;
+}
 .navbar {
 	min-height: 65px !important;
 	border-radius: 0 !important;
@@ -1327,7 +1329,9 @@ nav span {
 
 
 
-
+.offcanvas.show div li a span {
+	font-size: 2rem;
+}
 
 
 
