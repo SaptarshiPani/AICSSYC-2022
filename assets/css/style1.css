@@ -561,7 +561,7 @@ ul.navbar-nav {
 
 
 /***** Footer *****/
-
+/* 
 footer {
 	padding: 40px 0 0 0;
 	background: #444;
@@ -637,7 +637,7 @@ footer h3 {
 
 .fa-facebook, .fa-linkedin{
 	color: #85929E;
-}
+} */
 
 .events-img1,.events-img2 {
 	transition: width 2s, height 2s;
