@@ -52,9 +52,9 @@ h1,h2 {
 
 .title {
   color: #000000;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
 }
 
 .countdown-block {
