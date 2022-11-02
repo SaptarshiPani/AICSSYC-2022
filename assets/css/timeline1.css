@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+.timeline .dot {
+	height: 12px;
+	width: 12px;
+}
+.timeline .icon i {
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1;
+}
+.timeline .date {
+	width: 150px;
+	margin-right: -1px;
+	margin-top: 24px;
+	border-top: 3px solid lightgray;
+	text-align: right;
+	font-size: 20px;
+}
+.timeline .card-body {
+	background: #fefefe;
+}
+/*Even*/
+.event:nth-child(even) .date {
+	margin-left: -1px;
+	text-align: left;
+}
+.event:nth-child(even) .icon i {
+	margin-left: 45px;
+}
+/*Colors*/
+.bg-color1 {
+	background:DarkBlue;
+	color: #fff;
+font-size: 20px;
+}
+.txt-color1 {
+	color:DarkBlue;
+	border-color: DarkBlue !important;
+}
+.bg-color2 {
+	background:SkyBlue;
+	color: #fff;
+font-size: 20px;
+}
+.txt-color2 {
+	color:SkyBlue;
+	border-color:SkyBlue !important;
+}
+
+/*Animation*/
+.timeline .detail,
+.timeline .icon {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	/* animation-delay: 2s; */
+}
+
+.timeline .event:nth-child(odd) .detail,
+.timeline .event:nth-child(even) .icon {
+	transform: translate3d(10px, 0, 0);
+}
+
+.timeline .event:nth-child(even) .detail,
+.timeline .event:nth-child(odd) .icon {
+	transform: translate3d(-10px, 0, 0);
+}
+
+.timeline .event.in-view .detail,
+.timeline .event.in-view .icon {
+	transform: none;
+	visibility: visible;
+	opacity: 1;
+}
+
+.timeline .dot {
+	animation: scaleAnimation 2s;
+}
+
+@keyframes scaleAnimation {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
