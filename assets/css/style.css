@@ -1438,15 +1438,15 @@ span682 {
 } */
 
 .jumbotron {
-	/* padding: 2rem 1rem; */
+	
 	margin-bottom: 2rem;
-	/* background-color: #e9ecef; */
+	
 	border-radius: 0.3rem;
 }
 
-.location-details .reachlocation-info .img-box {
-	padding-bottom: 40px;
-}
+/* .location-details .reachlocation-info .img-box {
+	padding:auto;
+} */
 
 .location-details .reachlocation-info .sec-title {
 	font-size: 23px;
@@ -1459,22 +1459,27 @@ span682 {
 	margin-bottom: 60px;
 }
 
-.location-details .reachlocation-info .img-box i {
+/* .location-details .reachlocation-info .img-box i {
 	background: linear-gradient(35deg, #114a96, #89b7d1);
-	/* -webkit-background-clip: text; */
+	color: white;
 	-webkit-text-fill-color: transparent;
 	opacity: 0.7;
+} */
+.fa-gradient {
+	background: -webkit-gradient(linear, left top, left bottom, from(#114a96), to(#89b7d1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
 .bx,
 .bx {
 	font-weight: 900;
-}
+} 
 
-/* .bx, .far, .bx {
+.bx, .far, .bx {
     font-family: Font Awesome\ 5 Free;
-} */
+}
 .fa,
 .fab,
 .fal,
